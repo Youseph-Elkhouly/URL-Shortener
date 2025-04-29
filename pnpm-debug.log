@@ -1,0 +1,42 @@
+---
+  0 debug pnpm:scope: 
+    selected: 1
+    workspacePrefix: null
+  1 info pnpm: 
+    message: "A store server is running. All store manipulations are delegated to it."
+    prefix: "/app"
+  2 debug pnpm:package-json: 
+    initial: 
+      name: "shorturl"
+      version: "0.0.3"
+      description: "API project for freeCodeCamp"
+      main: "index.js"
+      scripts: 
+        start: "node index.js"
+      dependencies: 
+        body-parser: "^1.19.0"
+        cors: "^2.8.5"
+        dotenv: "^8.2.0"
+        express: "^4.17.1"
+        mongodb: "^3.6.9"
+      license: "MIT"
+      readme: "# URL Shortener Microservice\n\nThis is the boilerplate code for the URL Shortener Microservice project. Instructions for building your project can be found at https://www.freecodecamp.org/learn/back-end-development-and-apis/back-end-development-and-apis-projects/url-shortener-microservice.\n"
+      readmeFilename: "README.md"
+      gitHead: "7062c0c2e1cec4ab814c199cfce73634835f0c54"
+      _id: "shorturl@0.0.3"
+    prefix: "/app"
+  3 warn pnpm: 
+    message: "Moving body-parser that was installed by a different package manager to \"node_modules/.ignored"
+    prefix: "/app"
+  4 error pnpm: 
+    message: 
+      errno: -39
+      code: "ENOTEMPTY"
+      syscall: "rename"
+      path: "/rbd/pnpm-volume/f2d1e9b6-0fc8-4201-b168-4eb4b8f338c2/node_modules/body-parser"
+      dest: "/rbd/pnpm-volume/f2d1e9b6-0fc8-4201-b168-4eb4b8f338c2/node_modules/.ignored/body-parser"
+    err: 
+      name: "Error"
+      message: "ENOTEMPTY: directory not empty, rename '/rbd/pnpm-volume/f2d1e9b6-0fc8-4201-b168-4eb4b8f338c2/node_modules/body-parser' -> '/rbd/pnpm-volume/f2d1e9b6-0fc8-4201-b168-4eb4b8f338c2/node_modules/.ignored/body-parser'"
+      code: "ENOTEMPTY"
+      stack: "Error: ENOTEMPTY: directory not empty, rename '/rbd/pnpm-volume/f2d1e9b6-0fc8-4201-b168-4eb4b8f338c2/node_modules/body-parser' -> '/rbd/pnpm-volume/f2d1e9b6-0fc8-4201-b168-4eb4b8f338c2/node_modules/.ignored/body-parser'"
