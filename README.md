@@ -1,6 +1,9 @@
 🔗 URL Shortener Microservice
 This is a full stack JavaScript microservice that allows users to shorten URLs and access them via a shortened identifier. It's part of my journey through the freeCodeCamp APIs and Microservices Certification and demonstrates core backend concepts like RESTful API design, input validation, and database integration.
 
+![image](https://github.com/user-attachments/assets/8695e64c-7c78-42ff-9de2-595e289fa305)
+
+
 🚀 Features
 Accepts a valid URL via POST request to /api/shorturl
 
